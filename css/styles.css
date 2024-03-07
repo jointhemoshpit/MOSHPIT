@@ -5,10 +5,10 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
+	background-image: url("https://images.unsplash.com/photo-1666625241661-4d31a5a2bbbb?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 	background-color: black;
-	background-image: url("file:///C:/Users/alexe/OneDrive/Desktop/MOSHPIT/images/Background/moshpitbkg2.jpeg");
-	background-size: cover;  
+	background-size: cover;
+	
 }
 
 /* Changing the background colour for the header */
@@ -65,7 +65,7 @@ body h1 {
 	font-family: "Teko", sans-serif;
 	font-size: 156px;
 	text-transform: uppercase;
-	animation: yellow-glow 2s ease-in-out infinite alternate;
+	animation: red-glow 2s ease-in-out infinite alternate;
 	text-align: center;
 	padding-top: 134px;
 	padding-right: 134px;
@@ -81,7 +81,7 @@ body h2{
 	font-family: "Teko", sans-serif;
 	font-size: 75px;
 	text-transform: uppercase;
-	animation:blue-glow 2s ease-in-out infinite alternate;
+	animation: blue-glow 2s ease-in-out infinite alternate;
 	text-align: center;
 	padding-top: 0px;
 	padding-right: 0px;
@@ -99,19 +99,19 @@ body a {
 	padding-bottom: 1rem;
 	color: #510809;
 }
-@keyframes yellow-glow {
+@keyframes red-glow {
   from {
-    text-shadow: 0 0 20px #d9971c;
+    text-shadow: 0 0 20px #9c0d00;
   }
   to {
-    text-shadow: 0 0 30px #d9971c, 0 0 10px #d9971c;
+    text-shadow: 0 0 30px #9c0d00, 0 0 10px #9c0d00;
   }
 }
 @keyframes blue-glow {
   from {
-    text-shadow: 0 0 20px #140545;
+    text-shadow: 0 0 20px #0544ff;
   }
   to {
-    text-shadow: 0 0 30px #140545, 0 0 10px #140545;
+    text-shadow: 0 0 30px #0544ff, 0 0 10px #0544ff;
   }
 }
