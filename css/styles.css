@@ -6,7 +6,9 @@
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	background-color: black;
+	background-image: url("file:///C:/Users/alexe/OneDrive/Desktop/MOSHPIT/images/Background/moshpitbkg2.jpeg");
+	background-size: cover;  
 }
 
 /* Changing the background colour for the header */
@@ -41,4 +43,75 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+body {
+  background-color: #212121;
+  color: #4db1bc;
+  margin: 0;
+  display: grid;
+  align-items: center;
+	justify-items: center;}  
+.one{
+	font-family: "Teko", sans-serif;
+	
+}
+body h1 {
+	color: #000000;
+	margin: 0;
+	padding-bottom: 134px;
+	grid-column: 1;
+	grid-row: 1;
+	z-index: 1;
+	font-family: "Teko", sans-serif;
+	font-size: 156px;
+	text-transform: uppercase;
+	animation: yellow-glow 2s ease-in-out infinite alternate;
+	text-align: center;
+	padding-top: 134px;
+	padding-right: 134px;
+	padding-left: 134px;
+}
+body h2{
+	margin-right: -150px;
+	margin-left: -150px;
+	margin-bottom: -150px;
+	grid-column: 1;
+	grid-row: 1;
+	z-index: 1;
+	font-family: "Teko", sans-serif;
+	font-size: 75px;
+	text-transform: uppercase;
+	animation:blue-glow 2s ease-in-out infinite alternate;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: -150px;
+	color: #000000;
+}
+body a {
+	font-family: "Teko", sans-serif;
+	grid-column: 1;
+	grid-row: 1;
+	align-self: end;
+	justify-self: center;
+	padding-bottom: 1rem;
+	color: #510809;
+}
+@keyframes yellow-glow {
+  from {
+    text-shadow: 0 0 20px #d9971c;
+  }
+  to {
+    text-shadow: 0 0 30px #d9971c, 0 0 10px #d9971c;
+  }
+}
+@keyframes blue-glow {
+  from {
+    text-shadow: 0 0 20px #140545;
+  }
+  to {
+    text-shadow: 0 0 30px #140545, 0 0 10px #140545;
+  }
 }
