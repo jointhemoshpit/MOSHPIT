@@ -1,6 +1,36 @@
 <!doctype html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Footer</title>
+    <style>
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+			margin-bottom: 20px;
+		}
+        .social-icons li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+         .social-icons li img {
+            width: 40px; 
+            height: 40px;
+          
+            overflow: hidden; 
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Homepage</title>
@@ -11,6 +41,7 @@
     background-color: #717276;
 }
 	</style>
+	
 </head>
 	
   <body>
@@ -30,7 +61,7 @@
             Events
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Calendar</a></li>
+            <li><a class="dropdown-item" href="eventcalendar.html">Calendar</a></li>
             <li><a class="dropdown-item" href="#">MOSHPIT Events</a></li>
             <li><a class="dropdown-item" href="#">Artist Events</a></li>
           </ul>
@@ -333,10 +364,24 @@
 	  
 	  <center>
 	  <div class="button-overlay">
-    <img src="images/Background/bannermoshpit.png" width="1435" heigth="240" alt="photo of moshpit">
+    <img src="images/Background/bannermoshpitnew.png" width="1435" heigth="240" alt="photo of moshpit">
     <button>Button Here!</button>
   </div>
 	</center>
+	  
+	 <footer>
+        <ul class="social-icons">
+            <li><a href="https://www.instagram.com/join.the.moshpit/"><img src="images/instagram.svg" alt="Logo instagram" ></a></li>
+            <li><a href="https://www.tiktok.com/@join.the.moshpit"><img src="images/tiktok.svg" alt="Logo tiktok"></a></li>
+        </ul>
+        <div class="contact-info">
+            Email: join.the.moshpit.events@gmail.com<br>
+            Phone: +31 6 11597098
+        </div>
+    </footer>
+	  
+	  
+	 
 	  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
