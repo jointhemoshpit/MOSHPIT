@@ -1,29 +1,44 @@
 @charset "UTF-8";
+@import url("CSS Floor Calendar.css");
 .btnnav{
     border-width: thin;
     border-color: #C3252F;
     color: #C3252F;
 }
 
-
-.colornav{
-    
-}
 	
-.videotitle{
-    color: #C3252F;
-    font-family: DeLittleChromatic-Regular;
-    font-size: 100px;
-	
-		}
 .mottotext{
     font-size: 20px;
 }
 
 #more {display: none;}
 
-.valuebox{
+.card-wrapper{
+	display: flex;
 	
-	
+}
+
+.cardslide{
+	margin: 0 .5em;
+	width: calc(100%/3);
+}
+
+.button-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.button-overlay button {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  background-color: #c3252f;
+  color: #202020;
+  border-radius: 5px;
+}
+.button-overlay button:hover {
+  background-color: #272c7e;
 }
 

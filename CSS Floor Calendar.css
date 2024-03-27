@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.bodycalendar {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	font-family: "Poppins", serif;
+	background-color: #717276;
+	;
+}
+.h1calendar {
+	font-weight: 800;
+	margin: 1rem 0 0;
+	text-color: #fdd838;
+}
+
+.calendar {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.boxcalendar {
+		display: flex;
+		width: 10rem;
+		height: 10rem;
+		margin: 0.25rem;
+		flex-flow: column;
+		border-radius: 0.2rem;
+		padding: 1rem;
+		font-weight: 300;
+		font-size: 0.8rem;
+		box-sizing: border-box;
+		background: rgba(255, 255, 255, 0.25);
+		box-shadow: 0 8px 32px 0 #272c7e;
+		backdrop-filter: blur(4px);
+		-webkit-backdrop-filter: blur(4px);
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.18);
+	}
+		
+		time {
+			font-size: 2rem;
+			margin: 0 0 1rem 0;
+			font-weight: 500;
+		}
+	
+	.today{ 
+		background: #c3252f;
+	}
+
