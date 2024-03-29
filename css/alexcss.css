@@ -1,4 +1,32 @@
-@charset "utf-8";
+<footer>
+        <div class="container">
+			
+             <div class="col-6 contact-info">
+                <p>Contact us: email@example.com | Phone: 123-456-7890</p>
+             </div>
+		
+            <div class="col-6 social-links text-end">
+                <a href="https://www.facebook.com/yourpage" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/yourpage" target="_blank">TikTok</a>
+                <!-- Add more social media links as needed -->
+          
+	       </div>
+        </div>
+    </footer><footer>
+        <div class="container">
+			
+             <div class="col-6 contact-info">
+                <p>Contact us: email@example.com | Phone: 123-456-7890</p>
+             </div>
+		
+            <div class="col-6 social-links text-end">
+                <a href="https://www.facebook.com/yourpage" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/yourpage" target="_blank">TikTok</a>
+                <!-- Add more social media links as needed -->
+          
+	       </div>
+        </div>
+    </footer>@charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     box-sizing: border-box;
@@ -24,9 +52,7 @@ p{
 .jotform-page{
 	height: 100%;
 	width: 100%;
-	display: flex;
-	
-	
+	display: flex;	
 }
 .left-area{
   display:flex;
@@ -40,14 +66,14 @@ p{
   display:flex;
   flex-direction:column;
   justify-content:space-between;
-  background-color: black;
+  background-color: #202020;
   width:50px;
   height:100%;
   padding:20px 5px 0 5px;
   align-items:center;
 }
 .contacts-area{
-  background-color:rgba(0,0,0,.76);
+	background-color:#C3253F;
   width:250px;
   height:100%;
   padding:30px 16px 0 20px ;
@@ -159,7 +185,8 @@ button{
   margin-left:-4px;
 }
 .search-icon{
-  margin-left:-30px;
+	margin-left: -30px;
+	margin-top: -7px;	
 }
 .wrapper{
   display:flex;
@@ -280,13 +307,6 @@ span.extension{
   background-color:#D3D3D3;
   overflow:auto;
 }
-.profile-photo{
-  background-image:url("https://images.unsplash.com/photo-1513772051905-d2acb1dc5bb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80");
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size:cover;
-  height:200px;
-}
 .info-content{
   padding:14px;
 }
@@ -370,6 +390,9 @@ span.extension{
 	margin-bottom: 57px;
 	
 }
+.setting-icon{
+	margin-bottom: 4px;
+}
 
 /*
 @media screen and (max-width:600px){
@@ -418,5 +441,18 @@ span.extension{
 
 .chatroomheader{ color: aliceblue
     
-}.favoriteicon {
 }
+footer {
+	background-color: #333;
+	color: #fff;
+	padding-top: 31px;
+	padding-right: 0;
+	padding-left: 0;
+
+        }
+.social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+.headerfont{font-family: "delittle-chromatic", sans-serif;}
