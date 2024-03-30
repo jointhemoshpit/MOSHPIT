@@ -42,3 +42,21 @@
   background-color: #272c7e;
 }
 
+.navbarlogo {
+    margin-left: -12px;	
+}
+
+.values{
+    background-color: #C3252F;	
+	
+}
+
+.buttonvalues{
+    background-color: #272C7E;
+    color: #717276;    
+}
+
+.textvalues{
+	text-color: #717276;
+	
+}
