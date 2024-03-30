@@ -6,9 +6,8 @@
     color: #C3252F;
 }
 
-	
-.mottotext{
-    font-size: 20px;
+.navbar{
+	background-color: #202020
 }
 
 #more {display: none;}
@@ -59,4 +58,34 @@
 .textvalues{
 	text-color: #717276;
 	
+}
+
+.headertext{
+	font-family: "delittle-chromatic", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 60px;
+	color: #272C7E;	
+}
+.prtexthome{
+	font-family: "rockwell", sans-serif;
+font-weight: 400;
+font-style: normal;
+	
+}
+
+.titlecards{
+	font-family: "delittle-chromatic", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.footer{
+    background-color: #717276;
+    color: #202020;	
+}
+
+.eventcard{
+    background-color: #272c7e;
+    border: 0px solid #272C7E;
 }
