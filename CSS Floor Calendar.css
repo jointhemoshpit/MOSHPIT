@@ -35,22 +35,22 @@
 	margin-top: 50px;
 }
 
-.col{ flex: 0 1 calc(25% - 10px); 
+.colcalendar{ flex: 0 1 calc(25% - 10px); 
   margin: 0 5px; 
   
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .col {
+  .colcalendar {
     flex-basis: calc(50% - 10px); 
   }
 }
 
 @media (max-width: 767px) {
-  .col {
+  .colcalendar {
     flex-basis: 100%; 
   }
 }
-.col{
+.colcalendar{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	
