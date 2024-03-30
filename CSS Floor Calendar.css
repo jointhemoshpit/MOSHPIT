@@ -1,22 +1,22 @@
 @charset "UTF-8";
 .box1 {
-    width: 50px;
-    height: 300px;
-    border: 3px solid #c3252f;
-    margin-left: 10px;
-    margin-top: 10px;
-    background-color: #202020		
-	
+	width: 50px;
+	height: 300px;
+	border: 3px solid #c3252f;
+	margin-left: 10px;
+	margin-top: 20px;
+	background-color: #202020;
+	padding: 10px;	
 }
 	
 .box2 {
-    width: 50px;
-    height: 300px;
-    border: 3px solid #272c7e;
-    margin-left: 10px;
-    margin-top: 10px;
-    background-color: #202020		
-	
+	width: 50px;
+	height: 300px;
+	border: 3px solid #272c7e;
+	margin-left: 10px;
+	margin-top: 20px;
+	background-color: #202020;
+	padding: 10px;
 }
 
 .box3 {
@@ -24,12 +24,34 @@
     height: 300px;
     border: 3px solid #fdd838;
     margin-left: 10px;
-    margin-top: 10px;
-    background-color: #202020		
+    margin-top: 20px;
+    background-color: #202020;
+	padding: 10px;
 	
 }
 
 .textbox{
     color: #FFFFFF;	
 	margin-top: 50px;
+}
+
+.col{ flex: 0 1 calc(25% - 10px); 
+  margin: 0 5px; 
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col {
+    flex-basis: calc(50% - 10px); 
+  }
+}
+
+@media (max-width: 767px) {
+  .col {
+    flex-basis: 100%; 
+  }
+}
+.col{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
 }

@@ -1,0 +1,67 @@
+@charset "utf-8";
+.col-xl-3{ flex: 0 1 calc(25% - 10px); /* Four columns with 10px margin between them */
+  margin: 0 5px; /* Adjust margin between columns */
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-xl-3 {
+    flex-basis: calc(50% - 10px); /* Two columns with 10px margin between them */
+  }
+}
+
+@media (max-width: 767px) {
+  .col-xl-3 {
+    flex-basis: 100%; /* One column on phone screens */
+  }
+}
+
+
+.box1 {
+   
+  padding: 10px;
+    border: 3px solid #c3252f;
+    width: 50px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: #202020		
+	
+}
+	
+.box2 {
+  
+  padding: 10px;
+    border: 3px solid #272c7e;
+ width: 50px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: #202020		
+	
+}
+
+.box3 {
+
+  padding: 10px;
+    border: 3px solid #fdd838;
+   width: 50px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: #202020		
+	
+}
+
+
+.textbox{
+    color: #FFFFFF;	
+	margin-top: 50px;
+}
+.container {
+  display: grid;
+ 
+}
+
+
+
+.picbox {
+    width: 100%;
+  height: auto;
+}

@@ -1,32 +1,4 @@
-<footer>
-        <div class="container">
-			
-             <div class="col-6 contact-info">
-                <p>Contact us: email@example.com | Phone: 123-456-7890</p>
-             </div>
-		
-            <div class="col-6 social-links text-end">
-                <a href="https://www.facebook.com/yourpage" target="_blank">Instagram</a>
-                <a href="https://www.instagram.com/yourpage" target="_blank">TikTok</a>
-                <!-- Add more social media links as needed -->
-          
-	       </div>
-        </div>
-    </footer><footer>
-        <div class="container">
-			
-             <div class="col-6 contact-info">
-                <p>Contact us: email@example.com | Phone: 123-456-7890</p>
-             </div>
-		
-            <div class="col-6 social-links text-end">
-                <a href="https://www.facebook.com/yourpage" target="_blank">Instagram</a>
-                <a href="https://www.instagram.com/yourpage" target="_blank">TikTok</a>
-                <!-- Add more social media links as needed -->
-          
-	       </div>
-        </div>
-    </footer>@charset "utf-8";
+@charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     box-sizing: border-box;
