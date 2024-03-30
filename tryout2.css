@@ -51,8 +51,11 @@
 
 
 .textbox{
-    color: #FFFFFF;	
+	color: #FFFFFF;
 	margin-top: 50px;
+	text-shadow: 0px 0px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
 }
 .container {
   display: grid;
