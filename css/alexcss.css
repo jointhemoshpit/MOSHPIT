@@ -456,3 +456,15 @@ footer {
             margin: 0 10px;
         }
 .headerfont{font-family: "delittle-chromatic", sans-serif;}
+.search-icon-channels{
+	min-width: 356px;
+	max-width: 0px;
+	display: compact;
+	margin-top: -60px;
+}
+.search-channels{
+	margin-top: -30px;
+}
+.space-channels-search{
+	margin-bottom: -8px;
+}
