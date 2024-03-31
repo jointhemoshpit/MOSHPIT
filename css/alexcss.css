@@ -9,9 +9,9 @@
   outline:none;
 }
 body,html{
+  
   margin:0;
   height:100%;
-  color:#FFFFFF;
   font-family: 'Lato', sans-serif;
 }
 h2,p{
@@ -28,7 +28,6 @@ p{
 }
 .left-area{
   display:flex;
-  background-image:url("https://i.ibb.co/S7ZrZnG/image.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   height:100%;
@@ -45,7 +44,7 @@ p{
   align-items:center;
 }
 .contacts-area{
-	background-color:#C3253F;
+	background-color:#272C7E;
   width:250px;
   height:100%;
   padding:30px 16px 0 20px ;
@@ -404,30 +403,30 @@ span.extension{
     display:none;
   }
 }
-.btnnav{
-    border-width: thin;
-    border-color: #C3252F;
-    color: #C3252F;
-}
 
 
-.chatroomheader{ color: aliceblue
+
+.chatroomheader{ color: #C3253F;
     
 }
-footer {
-	background-color: #333;
-	color: #fff;
-	padding-top: 31px;
-	padding-right: 0;
-	padding-left: 0;
 
-        }
 .social-links a {
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
         }
-.headerfont{font-family: "delittle-chromatic", sans-serif;}
+.headerfont{
+	font-family: "delittle-chromatic", sans-serif;
+	color: #C3253F;	
+            }
+.nameteam{
+	font-family: "delittle-chromatic", sans-serif;
+	;
+	color: #fdd838;
+	text-align: center;
+
+    
+     }
 .search-icon-channels{
 	min-width: 356px;
 	max-width: 0px;
@@ -439,4 +438,163 @@ footer {
 }
 .space-channels-search{
 	margin-bottom: -8px;
+}
+.btnnav{
+    border-width: thin;
+    border-color: #C3252F;
+    color: #C3252F;
+}
+.navbar-chats{ background-color: #202020; }
+	
+
+
+#more {display: none;}
+
+
+.profilepictureuser{
+	width: 40px;
+	height: 40px;
+	margin-bottom: 176px;
+	border-radius: 26px;
+	position: absolute; 
+}
+
+.navbarlogo {
+    margin-left: -12px;	
+}
+
+.photo-moshpitcontact{
+	width: 38px;
+	margin-left: -1px;
+}
+.meettheteam{
+	position: absolute;
+    bottom: 0; /* Position at the bottom */
+    left: 50%; /* Position at the center horizontally */
+    transform: translateX(-50%); /* Adjust horizontally to center */
+    margin-bottom: 20px;
+	margin-top: 235px;
+	color: black;
+	text-shadow: 0px 0px 9px #fdd838;
+	text-align: center;	
+	font-family: "delittle-chromatic", sans-serif;
+	
+}
+.teamimg{
+	display: block; /* Ensure the image is a block element */
+	margin: 0 auto;
+	height: 205px;	
+}
+
+.alexcol{ 
+   position:relative;
+    background-color: #272C7E;
+	padding: 10px; }
+.karinacol{ 
+   position: relative;
+    background-color:#C3252F;
+	padding: 10px; }
+.vladycol{  
+ position: relative;
+    background-color: #C3252F;
+	padding: 10px; }
+.floorcol{ 
+   position: relative;
+    background-color: #272C7E;
+	padding: 10px; }
+
+.colteam {
+	position: relative;
+	flex: 0 1 calc(25% - 10px);
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-bottom: 0px;
+	padding-top: -1px;
+	margin-bottom: 36px;   
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .colteam {
+    flex-basis: calc(50% - 10px); 
+  }
+}
+
+@media (max-width: 767px) {
+  .colteam {
+    flex-basis: 100%; 
+  }
+}
+
+.alexpic{
+	position: relative;
+	bottom: 0;
+	height: auto;
+	width: 100%;
+		
+	
+
+}
+.vladypic{
+	position: relative;
+	bottom: 0;
+	height: auto;
+	width: 100%;
+	
+	
+}
+.floorpic{
+	position: relative;
+	bottom: 0;
+	height: auto;
+	width: 100%;
+	
+
+}
+.karinapic{
+	position: relative;
+	bottom: 0;
+	height: auto;
+	width: 100%;
+}
+
+.containerteamheader{ position: relative; background-color: #202020;
+text-align: center; }
+
+
+.body-team{background-color:  #202020;}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.colteam:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.row{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 }
