@@ -365,18 +365,7 @@ span.extension{
 	margin-bottom: 4px;
 }
 
-/*
-@media screen and (max-width:600px){
-  .contact-area{
-    display:none;
-  }
-  .info-area{
-    display:none;
-  }
-  .message-area{
-    width:calc(100% - 300px);
-  }
-}*/
+
 @media screen and (max-width:1050px){
   .info-area{
     display:none;
@@ -475,7 +464,7 @@ span.extension{
 	transform: translateX(-50%); /* Adjust horizontally to center */
 	margin-bottom: 20px;
 	margin-top: 235px;
-	color: black;
+	color: #202020;
 	text-shadow: 0px 0px 9px #fdd838;
 	text-align: center;
 	font-family: "delittle-chromatic", sans-serif;
