@@ -50,8 +50,8 @@
 	
 }
 
-.buttonvalues{
-    background-color: #272C7E;
+.buttonhome{
+    background-color: #202020;
     color: #717276;    
 }
 
@@ -87,5 +87,8 @@ font-style: normal;
 
 .eventcard{
     background-color: #272c7e;
-    border: 0px solid #272C7E;
+}
+
+.chatcard{
+	background-color: #FDD838
 }
