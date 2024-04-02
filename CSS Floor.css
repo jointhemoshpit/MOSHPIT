@@ -93,3 +93,21 @@ font-style: normal;
 	background-color: #FDD838
 	
 }
+
+.smallheadertext{
+	font-family: "delittle-chromatic", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 35px;
+	color: #202020;	
+	
+}
+
+.colorexception{
+	color: #FFFFFF;
+}
+
+.curvebtn{
+    border-radius: 5px;
+    border-width: 0px;
+}
