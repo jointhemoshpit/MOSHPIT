@@ -80,3 +80,12 @@ font-style: normal;
 	background-color:#717276;
 	color: #202020;
 }
+.btnnav{
+    border-width: thin;
+    border-color: #C3252F;
+    color: #C3252F;
+}
+
+.navbar{
+	background-color: #202020
+}

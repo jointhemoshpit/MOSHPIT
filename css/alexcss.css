@@ -588,3 +588,12 @@ text-align: center; }
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
+.btnnav{
+    border-width: thin;
+    border-color: #C3252F;
+    color: #C3252F;
+}
+
+.navbar{
+	background-color: #202020
+}
