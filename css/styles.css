@@ -112,3 +112,13 @@ body a {
     text-shadow: 0 0 30px #0544ff, 0 0 10px #0544ff;
   }
 }
+
+.btnnav{
+    border-width: thin;
+    border-color: #C3252F;
+    color: #C3252F;
+}
+
+.navbar{
+	background-color: #202020
+}
