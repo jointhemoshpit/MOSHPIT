@@ -19,17 +19,16 @@
 
 .cardslide{
 	margin: 0 .5em;
-    width: calc(100%/3);
 }
 
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .carousel-item .card {
     flex: 0 0 100%; 
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 577px) and (max-width: 991px) {
   .carousel-item .card {
     flex: 0 0 calc(50% - 1rem); 
   }
