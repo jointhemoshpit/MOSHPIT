@@ -1,8 +1,8 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: "rockwell", sans-serif;
 }
 *{
   box-sizing:border-box;
@@ -12,7 +12,8 @@ body,html{
   
   margin:0;
   height:100%;
-  font-family: 'Lato', sans-serif;
+  font-family: "rockwell", sans-serif;
+font-style: normal;
 }
 h2,p{
   margin:0;
@@ -395,9 +396,7 @@ span.extension{
 
 
 
-.chatroomheader{ color: #C3253F;
-    
-}
+
 
 .social-links a {
             color: #fff;
@@ -406,8 +405,8 @@ span.extension{
         }
 .headerfont{
 	font-family: "delittle-chromatic", sans-serif;
-	color: #202020;	
-	text-shadow: 0px 0px 9px #fdd838;
+	color: #FDD838;	
+
             }
 .nameteam{
 	font-family: "delittle-chromatic", sans-serif;
@@ -464,8 +463,8 @@ span.extension{
 	transform: translateX(-50%); /* Adjust horizontally to center */
 	margin-bottom: 20px;
 	margin-top: 235px;
-	color: #202020;
-	text-shadow: 0px 0px 9px #fdd838;
+	color: #FDD838;
+	
 	text-align: center;
 	font-family: "delittle-chromatic", sans-serif;
 	font-size: 40px;	
@@ -473,7 +472,8 @@ span.extension{
 .teamimg{
 	display: block; /* Ensure the image is a block element */
 	margin: 0 auto;
-	height: 205px;	
+	height: 205px;
+
 }
 
 .alexcol{ 
@@ -546,11 +546,11 @@ span.extension{
 	width: 100%;
 }
 
-.containerteamheader{ position: relative; background-color: #202020;
+.containerteamheader{ position: relative; background-color: #717276;
 text-align: center; }
 
 
-.body-team{background-color:  #202020;}
+.body-team{background-color: #717276;}
 
 .overlay {
     position: absolute;
@@ -576,16 +576,18 @@ text-align: center; }
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+	font-family: "rockwell", sans-serif;
+    font-style: normal;
 }
 
 .row{
 	margin-left: 10px;
-	margin-top: 10px;
+
 	margin-right: 10px;
-	margin-bottom: 10px;
-	padding-top: 10px;
+
+
 	padding-right: 10px;
-	padding-bottom: 10px;
+
 	padding-left: 10px;
 }
 .btnnav{
@@ -595,5 +597,13 @@ text-align: center; }
 }
 
 .navbar{
-	background-color: #202020
+	background-color: #202020;
+	font-family: "rockwell", sans-serif;
+font-style: normal;
 }
+.nav-link{font-family: "rockwell", sans-serif;
+font-weight: 400;
+font-style: normal;}
+.contact-info{font-family: "rockwell", sans-serif;
+font-weight: 400;
+font-style: normal;}
