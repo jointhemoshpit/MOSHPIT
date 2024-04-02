@@ -19,8 +19,22 @@
 
 .cardslide{
 	margin: 0 .5em;
-	width: calc(100%/3);
+    width: calc(100%/3 - 1em);
 }
+@media (max-width: 576px) {
+  .cardslide {
+    width: calc(100% - 1em); /* Display one card per row for smaller screens */
+    margin: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .cardslide {
+    width: calc(50% - 1em); /* Display two cards per row for medium screens */
+  }
+}
+
+
 
 .button-overlay {
   position: relative;
@@ -69,7 +83,6 @@ font-size: 60px;
 }
 .prtexthome{
 	font-family: "rockwell", sans-serif;
-font-weight: 400;
 font-style: normal;
 	
 }
@@ -87,7 +100,9 @@ font-style: normal;
 
 .eventcard{
     background-color: #272c7e;
+
 }
+
 
 .chatcard{
 	background-color: #FDD838
@@ -111,3 +126,25 @@ font-size: 35px;
     border-radius: 5px;
     border-width: 0px;
 }
+
+ 
+@media (max-width: 768px) {
+  .joinherebtn button {
+    font-size: 12px; 
+    padding: 5px 5px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .joinherebtn button {
+    font-size: 15px; 
+    padding: 7px 10px; 
+  }
+}
+
+
+@media (min-width: 992px) {
+  .joinherebtn button {
+    font-size: 18px; 
+    padding: 10px 15px;
+	}}
