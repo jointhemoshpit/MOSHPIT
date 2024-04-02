@@ -48,3 +48,12 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+.btnnav{
+    border-width: thin;
+    border-color: #C3252F;
+    color: #C3252F;
+}
+
+.navbar{
+	background-color: #202020
+}
