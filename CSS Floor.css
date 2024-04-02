@@ -21,16 +21,24 @@
 	margin: 0 .5em;
     width: calc(100%/3 - 1em);
 }
-@media (max-width: 576px) {
-  .cardslide {
-    width: calc(100% - 1em); /* Display one card per row for smaller screens */
-    margin: 0;
+
+/* Adjust the number of columns per row for small screens */
+@media (min-width: 576px) {
+  .carousel-item .card {
+    flex: 0 0 100%; /* One card per row, taking up full width */
+  }
+}
+/* Adjust the number of columns per row for medium-sized screens */
+@media (min-width: 768px) {
+  .carousel-item .card {
+    flex: 0 0 calc(50% - 1rem); /* Two cards per row with some margin */
   }
 }
 
-@media (min-width: 576px) and (max-width: 991px) {
-  .cardslide {
-    width: calc(50% - 1em); /* Display two cards per row for medium screens */
+/* Adjust the number of columns per row for large screens */
+@media (min-width: 992px) {
+  .carousel-item .card {
+    flex: 0 0 calc(100%/3 - 1rem); /* Three cards per row with some margin */
   }
 }
 
