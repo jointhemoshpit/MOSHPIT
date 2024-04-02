@@ -19,7 +19,7 @@
 
 .cardslide{
 	margin: 0 .5em;
-    width: calc(100%/3 - 1em);
+   
 }
 
 /* Adjust the number of columns per row for small screens */
