@@ -423,7 +423,7 @@ span.extension{
 	margin-top: -60px;
 }
 .search-channels{
-	margin-top: -30px;
+	margin-top: -60px;
 }
 .space-channels-search{
 	margin-bottom: -8px;
@@ -607,3 +607,6 @@ font-style: normal;}
 .contact-info{font-family: "rockwell", sans-serif;
 font-weight: 400;
 font-style: normal;}
+.plusicon{
+	margin-left: 95px;
+}
