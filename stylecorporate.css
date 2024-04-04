@@ -58,3 +58,9 @@ footer a:hover {
 .navbar{
 	background-color: #202020
 }
+h5 {
+	font-style: italic;
+}
+p {
+	text-indent: 5px;
+}
