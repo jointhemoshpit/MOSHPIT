@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body {
+    background-color: #717276;
+}
 .box1 {
 	width: 50px;
 	height: 300px;
