@@ -42,8 +42,6 @@ h5 {
 p {
 	text-indent: 5px;
 }
-.bordergreycolor {
-	border: 5px solid #000000;
-}
+.border-secondary{border-color: black; }
 .headlinefont{ font-family: "delittle-chromatic", sans-serif;}
 .textfont{  font-family: "rockwell", sans-serif;}
