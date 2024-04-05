@@ -62,6 +62,8 @@ font-family: "delittle-chromatic", sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 50px;
+text-align: center;
+align-content: center;	
 }
 
 .headertextevent2{
@@ -69,6 +71,8 @@ font-size: 50px;
 font-weight: 400;
 font-style: normal;
 	font-size:30px;
+	text-align: center;
+align-content: center;	
 }
 
 .prtext{
