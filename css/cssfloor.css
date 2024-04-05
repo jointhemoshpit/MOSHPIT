@@ -162,4 +162,6 @@ font-size: 35px;
 	
 	width:100%; heigth:100%; 
 }
-.videomoshpit {width:100%; height:100%;}
+.videomoshpit {width:100%; height:100%; 
+	align-content: center;
+}
